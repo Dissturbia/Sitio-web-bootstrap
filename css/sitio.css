@@ -1,0 +1,55 @@
+html.body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+#cover {
+    background: #222 url('../Images/cover.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto {
+    width: 100%;
+
+}
+
+#cover-texto .form-inline {
+    padding: 5rem 0;
+
+}
+
+img.card-img-top {
+    width: 100%;
+}
+
+.contenido-seccion {
+    padding: 5rem 0;
+
+}
+
+#Acerca-de {
+    background:url("../Images/acerca.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.texto-acerca-de {
+    background:black;
+    opacity: 0.7;
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
